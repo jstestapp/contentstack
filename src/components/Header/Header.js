@@ -7,6 +7,9 @@ export const Header = () => {
   return (
     <HeaderWrapper>
       <HeaderContent>
+        <Link to={ROUTES.Contentstack}>
+          <ButtonStyled buttonName='Contentstack' />
+        </Link>
         <Link to={ROUTES.Books}>
           <ButtonStyled buttonName='Books' />
         </Link>
